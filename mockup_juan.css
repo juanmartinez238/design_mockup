@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-left: auto;
+  height: 5vh;
+}
+
+.searchbar input {
+  width: 20%;
+}
+
+.topnav {
+  list-style: none;
+}
+
+.topnav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.randomuserimage {
+  height: 3vh;
+}
+
+.uploadimage {
+  height: 3vh;
+}
+
+.midsection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidelist,
+p {
+  list-style-type: none;
+  color: #c9c9c9;
+  font-family: "Open Sans Condensed", sans-serif;
+}
